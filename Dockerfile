@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Minh Triet33 "trietb1910721@student.ctu.edu.vn"
+MAINTAINER MinhTriet33 "trietb1910721@student.ctu.edu.vn"
 RUN apt update -y
 RUN apt install -y python3-pip python3-dev build-essential
 ADD . /flask_app
